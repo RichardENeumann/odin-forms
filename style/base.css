@@ -32,40 +32,43 @@ header {
     font-family: "Bamboo Letters", Arial, Helvetica, sans-serif;
     font-size: 4rem;
     letter-spacing: .1rem;
-    color: ivory;
+    color: darkseagreen;
     text-decoration: none;
 }
 body {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #F9FAFB;
 }
 main {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
     font-weight: bold;
-    padding: 0 2rem;
 }
 .infoText {
-    margin: 2rem 0;
+    padding: 1.5rem 2rem;
 }
-form {
-    margin: 2rem 0;
+.fsTopLevel {
+    border: none;
+    box-shadow: 0 .3rem 1rem 0 grey;
+    padding: 1.5rem 3rem;
+    background-color: white;
+    width: 100%;
 }
 fieldset {
-    padding: 1rem;
+    padding: .5rem;
+    border: none;
 }
 .submit {
-    margin-top: 2rem;
+    margin: 2rem 0 1rem 3rem;
 }
 .submit button {
-  background-color: seagreen;
-  border: none;
-  border-radius: 5px;
-  color: ivory;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    background-color: seagreen;
+    color: ivory;
+    font-size: 1rem;
+}
+.login {
+    margin: 0 3rem;
 }
