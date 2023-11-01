@@ -3,17 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/base.css">
     <title>OnlyFerns - Sign Up</title>
 </head>
 <body>
     <header>
-        <img src="" alt="The OnlyFerns Logo">
-        OnlyFerns
+        <div class="titleText">
+            <a href="">OnlyFerns</a>
+        </div>
     </header>
     <main>
+        <div class="infoText">
+            This is a very real online service dedicated to ferns. 
+            If you would like to contribute your own content about moist foliage,
+            join the firm trunk of our community. Sign up <i>today!</i>
+        </div>
         <form>
-
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <fieldset>
+                    <label>First Name
+                        <input type="text" name="firstName">
+                    </label>
+                    <label>Last Name
+                        <input tpye="text" name="lastName">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>E-Mail
+                        <input type="email" name="emailAddress">
+                    </label>
+                    <label>Phone Number
+                        <input type="tel" name="phoneNumber"
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>Password
+                        <input type="password" name="password">
+                    </label>
+                    <label>
+                        <input type="password" name="passwordConfirm">
+                    </label>
+                </fieldset>
+            </fieldset>
         </form>
+        <div class="Submit">
+            <button type="submit" action="">Create Account</button>
+        </div>
     </main>
 </body>
 </html>
