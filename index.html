@@ -22,34 +22,34 @@
             <fieldset>
                 <legend>Let's do this!</legend>
                 <fieldset>
-                    <label>First Name
-                        <input type="text" name="firstName">
+                    <label>First Name*
+                        <input type="text" name="firstName" required>
                     </label>
                     <label>Last Name
                         <input tpye="text" name="lastName">
                     </label>
                 </fieldset>
                 <fieldset>
-                    <label>E-Mail
-                        <input type="email" name="emailAddress">
+                    <label>E-Mail*
+                        <input type="email" name="emailAddress" required>
                     </label>
                     <label>Phone Number
-                        <input type="tel" name="phoneNumber"
+                        <input type="tel" name="phoneNumber">
                     </label>
                 </fieldset>
                 <fieldset>
-                    <label>Password
-                        <input type="password" name="password">
+                    <label>Password*
+                        <input type="password" name="password" required>
                     </label>
-                    <label>
-                        <input type="password" name="passwordConfirm">
+                    <label>Confirm Password*
+                        <input type="password" name="passwordConfirm" required>
                     </label>
                 </fieldset>
             </fieldset>
+            <div class="Submit">
+                <button action="">Create Account</button>
+            </div>
         </form>
-        <div class="Submit">
-            <button type="submit" action="">Create Account</button>
-        </div>
     </main>
 </body>
 </html>
