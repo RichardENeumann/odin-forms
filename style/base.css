@@ -26,6 +26,7 @@ body {
 header {
     background-color: seagreen;
     background-image: url("../gfx/artur-kulagin-ly0IyQtUOCY-unsplash.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 5rem;
@@ -34,10 +35,12 @@ header a, header a:visited, header a:hover, header a:visited:hover {
     font-family: "Bamboo Letters", Arial, Helvetica, sans-serif;
     font-size: 4rem;
     letter-spacing: .1rem;
-    color: darkseagreen;
+    color: white;
     text-decoration: none;
 }
 .title {
+    display: flex;
+    justify-content: center;
     margin-left: 3rem;
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.5);
@@ -48,27 +51,23 @@ header a, header a:visited, header a:hover, header a:visited:hover {
     font-style: italic;
     padding: 1.5rem 2rem;
 }
-fieldset > fieldset {
-    padding: .5rem 0;
-    border: none;
-    font-size: .8rem;
-    font-style: italic;
-}
-.fsTopLevel {
+fieldset {
+    padding: 1.5rem 3rem;
+    width: 100%;
+    background-color: white;
     border: none;
     box-shadow: 0 .3rem 1rem 0 grey;
-    padding: 1.5rem 3rem;
-    background-color: white;
-    width: 100%;
+    font-style: italic;
 }
-label {
-    display: block;
-
+.inputArea {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .8rem;
 }
 input {
     margin-bottom: .5rem;
     padding:.1rem .1rem .1rem .5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border-radius: 3px;
     border: 1px solid seagreen;
     width: 25ch;

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/tablet.css">
     <link rel="stylesheet" href="style/desktop.css">
     <title>OnlyFerns - Sign Up</title>
 </head>
@@ -20,30 +21,32 @@
             sign up today!
         </div>
         <form>
-            <fieldset class="fsTopLevel">
-                Enter your particulars below:<br>
-                <fieldset>
-                    <label for="firstN">First Name *</label>
-                    <input type="text" name="firstName" id="firstN" placeholder="Alex" 
-                        autocomplete="given-name" required>
-                    <label for="lastN">Last Name</label>
-                    <input type="text" name="lastName" id="lastN" placeholder="Trebek"
-                        autocomplete="family-name">
-                </fieldset>
-                <fieldset>
-                    <label for="email">E-Mail *</label>
-                    <input type="email" name="emailAddress" id="email" 
-                        placeholder="alex@example.com" autocomplete="email" required>
-                    <label for="phNum">Phone Number</label>
-                    <input type="tel" name="phoneNumber" id="phNum" placeholder="+49 12-345-678-9" 
-                        autocomplete="tel" pattern="[\+]*[0-9\-\s]+">
-                </fieldset>
-                <fieldset>
-                    <label for="pw">Password *</label>
-                    <input type="password" name="password" id="pw" required>
-                    <label for="pwConfirm">Confirm Password *</label>
-                    <input type="password" name="passwordConfirm" id="pwConfirm" required>
-                </fieldset>
+            <fieldset>
+                <em>Enter your particulars below:</em><br><br>
+                <div class="inputArea">
+                    <label for="firstN">First Name *<br>
+                        <input type="text" name="firstName" id="firstN" placeholder="Alex" 
+                            autocomplete="given-name" required>
+                    </label>
+                    <label for="lastN">Last Name<br>
+                        <input type="text" name="lastName" id="lastN" placeholder="Trebek"
+                            autocomplete="family-name">
+                    </label>                        
+                    <label for="email">E-Mail *<br>
+                        <input type="email" name="emailAddress" id="email" 
+                            placeholder="alex@example.com" autocomplete="email" required>
+                    </label>    
+                    <label for="phNum">Phone Number<br>
+                        <input type="tel" name="phoneNumber" id="phNum" placeholder="+49 12-345-678-9" 
+                            autocomplete="tel" pattern="[\+]*[0-9\-\s]+">
+                    </label>
+                    <label for="pw">Password *<br>
+                        <input type="password" name="password" id="pw" required>
+                    </label>
+                    <label for="pwConfirm">Confirm Password *<br>
+                        <input type="password" name="passwordConfirm" id="pwConfirm" required>
+                    </label>
+                </div><br>
                 <small>* Required fields are marked with an asterisk.</small>
             </fieldset>
             <div class="submit">

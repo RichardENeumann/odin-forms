@@ -1,0 +1,11 @@
+@media only screen and (min-width: 600px) {
+    .infoText {
+        height: 20%;
+    }
+    input {
+        font-size: 1.2rem;
+    }
+    .inputArea {
+        gap: 1.2rem;
+    }
+}
