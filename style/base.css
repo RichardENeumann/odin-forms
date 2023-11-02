@@ -60,19 +60,20 @@ fieldset > fieldset {
 }
 label {
     display: block;
-    margin-left: .5rem;
+
 }
 input {
     margin-bottom: .5rem;
-    padding:.1rem;
-
+    padding:.1rem .1rem .1rem .5rem;
     font-size: 1rem;
     border-radius: 3px;
     border: 1px solid seagreen;
+    width: 25ch;
 }
 input:focus {
     border: 1px solid blue;
-    border-radius: 3px;
+    background-color: lightblue;
+    outline:none;
 }
 small {
     font-style: italic;
