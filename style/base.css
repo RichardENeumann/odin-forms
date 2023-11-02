@@ -14,6 +14,9 @@ a, a:visited  {
 a:hover, a:visited:hover {
     color: darkseagreen;
 }
+html {
+    background-color: #0E0E0E;
+}
 body {
     display: flex;
     flex-direction: column;
