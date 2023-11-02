@@ -25,7 +25,7 @@ header {
     background-image: url("../gfx/artur-kulagin-ly0IyQtUOCY-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 6rem;
+    height: 5rem;
 }
 header a, header a:visited, header a:hover, header a:visited:hover {
     font-family: "Bamboo Letters", Arial, Helvetica, sans-serif;
@@ -36,7 +36,7 @@ header a, header a:visited, header a:hover, header a:visited:hover {
 }
 .title {
     margin-left: 3rem;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: rgba(0, 0, 0, 0.5);
     width: fit-content;
     height: 100%;
@@ -45,9 +45,11 @@ header a, header a:visited, header a:hover, header a:visited:hover {
     font-style: italic;
     padding: 1.5rem 2rem;
 }
-fieldset {
+fieldset > fieldset {
     padding: .5rem 0;
     border: none;
+    font-size: .8rem;
+    font-style: italic;
 }
 .fsTopLevel {
     border: none;
@@ -56,8 +58,27 @@ fieldset {
     background-color: white;
     width: 100%;
 }
+label {
+    display: block;
+    margin-left: .5rem;
+}
+input {
+    margin-bottom: .5rem;
+    padding:.1rem;
+
+    font-size: 1rem;
+    border-radius: 3px;
+    border: 1px solid seagreen;
+}
+input:focus {
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+small {
+    font-style: italic;
+}
 .submit {
-    margin: 2rem 0 1rem 3rem;
+    margin: 3rem 0 1rem 3rem;
 }
 .submit button {
     border: none;
