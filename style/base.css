@@ -75,6 +75,18 @@ input:focus {
     background-color: lightblue;
     outline:none;
 }
+.error > input {
+    border: 1px solid red;
+    background-color: darksalmon;
+}
+.error2 > input {
+    border: 1px solid red;
+    background-color: darksalmon;
+}
+.error2::after {
+    color: red;
+    content: "not matching!";
+}
 small {
     font-style: italic;
 }
