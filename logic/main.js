@@ -9,7 +9,7 @@ function checkCongruency() {
 
     if (pwInput != "" && pwInput.value == pwInputConfirm.value) {
         pwError.innerHTML = "Ok!";
-        pwError.style.color = "lightgreen";
+        pwError.style.color = "green";
     } else {
         pwError.innerHTML = "...not matching!";
         pwError.style.color = "red";

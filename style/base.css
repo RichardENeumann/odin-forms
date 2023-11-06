@@ -65,10 +65,10 @@ fieldset {
 input {
     margin-bottom: .5rem;
     padding:.1rem .1rem .1rem .5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: 3px;
     border: 1px solid seagreen;
-    width: 25ch;
+    width: 30ch;
 }
 input:focus {
     border: 1px solid blue;
