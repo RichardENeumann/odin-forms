@@ -4,10 +4,10 @@ let pwInput = document.getElementById("pw");
 let pwInputConfirm = document.getElementById("pwConfirm");
 let pwError = document.getElementById("errorMessage");
 
-console.log(pwInput, pwInputConfirm,pwError);
-
 function checkCongruency() {
-    if (pwInput.value != "" && pwInput.value == pwInputConfirm.value) {
+    console.log(pwInput.value, pwInputConfirm.value);
+
+    if (pwInput != "" && pwInput.value == pwInputConfirm.value) {
         pwError.innerHTML = "Ok!";
         pwError.style.color = "lightgreen";
     } else {
@@ -16,5 +16,5 @@ function checkCongruency() {
     }
 }
 
-pwInput.addEventListener("input", checkCongruency());
-pwInputConfirm.addEventListener("input", checkCongruency());
+pwInput.addEventListener("input", checkCongruency);
+pwInputConfirm.addEventListener("input", checkCongruency);
