@@ -72,20 +72,18 @@ input {
 }
 input:focus {
     border: 1px solid blue;
-    background-color: lightblue;
     outline:none;
 }
-.error > input {
-    border: 1px solid red;
-    background-color: darksalmon;
+input:focus:valid {
+    background-color: lightgreen;
 }
-.error2 > input {
-    border: 1px solid red;
-    background-color: darksalmon;
+input:invalid {
+    background-color: gainsboro;
 }
-.error2::after {
+#pwConfirm:last-child::after {
     color: red;
-    content: "not matching!";
+    display: block;
+    content: "...not matching!";
 }
 small {
     font-style: italic;
