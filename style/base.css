@@ -80,10 +80,8 @@ input:focus:valid {
 input:invalid {
     background-color: gainsboro;
 }
-#pwConfirm:last-child::after {
+#errorMessage {
     color: red;
-    display: block;
-    content: "...not matching!";
 }
 small {
     font-style: italic;
